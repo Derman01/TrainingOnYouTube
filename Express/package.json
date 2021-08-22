@@ -1,20 +1,28 @@
 {
-  "name": "express",
+  "name": "react-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "rest api fullstack example",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "rect-api"
+  },
+  "keywords": [
+    "js",
+    "rect",
+    "api"
+  ],
+  "author": "Denis Topychkanov <lettenderman@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "@types/express": "^4.17.13",
     "nodemon": "^2.0.12"
   }
 }
